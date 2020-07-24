@@ -1,22 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from './assets/img/logo.svg';
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'>
-          Learn React
-        </a>
+    <div className='flex items-center justify-center min-h-screen bg-blue-900'>
+      <header className='text-white'>
+        <img src={logo} className='w-64' alt='logo' />
+
+        <p className='font-bold'>Initial react app with the following:</p>
+
+        <ul className='p-8 my-4 text-gray-700 bg-white rounded'>
+          <li>- eslint config airbnb</li>
+          <li>- prettier</li>
+          <li>- tailwindcss</li>
+        </ul>
       </header>
     </div>
   );
