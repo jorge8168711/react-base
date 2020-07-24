@@ -1,0 +1,29 @@
+{
+  "extends": ["airbnb", "airbnb/hooks"],
+  "rules":  {
+    "no-console": "off",
+    "no-unused-vars": "warn",
+    "react/jsx-closing-bracket-location": [1, {
+      "nonEmpty": false,
+      "selfClosing": false
+    }],
+    "jsx-quotes": ["error", "prefer-single"],
+    "react/jsx-one-expression-per-line": [1, { "allow": "allow" }]
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react"]
+}
