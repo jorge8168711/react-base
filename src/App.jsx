@@ -13,6 +13,7 @@ function App() {
           <li>- eslint config airbnb</li>
           <li>- prettier</li>
           <li>- tailwindcss</li>
+          <li>- MaterialUI</li>
         </ul>
       </header>
     </div>
