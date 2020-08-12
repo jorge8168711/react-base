@@ -4,6 +4,13 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './assets/styles/tailwind.css';
 
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root'),
+);
+
 /* FOR material UI theme implementation
 import { ThemeProvider } from '@material-ui/core';
 import muiTheme from './muiTheme';
