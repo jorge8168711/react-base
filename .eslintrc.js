@@ -13,6 +13,12 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
+    'no-console': 'warn',
+    'no-unused-vars': 'warn',
     'jsx-quotes': ['error', 'prefer-single'],
+    'react/jsx-closing-bracket-location': [1, {
+      nonEmpty: false,
+      selfClosing: false,
+    }],
   },
 };

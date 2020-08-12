@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 const postcssCustomProperties = require('postcss-custom-properties');
 
 module.exports = {
